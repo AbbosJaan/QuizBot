@@ -1,4 +1,6 @@
-﻿using Telegram.Bot;
+﻿using QuizBot.GetAPiData;
+using QuizBot.Models;
+using Telegram.Bot;
 using Telegram.Bot.Exceptions;
 using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
@@ -41,10 +43,14 @@ async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, Cancel
 
     Console.WriteLine($"Received a '{messageText}' message in chat {chatId}.");
 
+    var getApi = new GetApi();
+    var data = getApi.GetData();
+    var root = new Root();
+
     // Echo received message text
     Message sentMessage = await botClient.SendTextMessageAsync(
         chatId: chatId,
-        text: "You said:\n" + messageText,
+        text: "You said:\n" + data.question,
         cancellationToken: cancellationToken);
 }
 
