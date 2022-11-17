@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace QuizBot.Models
 {
     public class Answers
-    {
+    {// ha malades
         public string answer_a { get; set; }
         public string answer_b { get; set; }
         public string answer_c { get; set; }
