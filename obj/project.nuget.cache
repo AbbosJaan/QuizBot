@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "aMFiiHcwyKr/btWVd8gova8XOHXXvchrPBRZvLbEDEfix6KnxRviFlyKIHA3fGpV6lhf3Dr5m0vGYAYc1FaLYQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Sardor Sohinazarov\\source\\repos\\QuizBot\\QuizBot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Sardor Sohinazarov\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\Sardor Sohinazarov\\.nuget\\packages\\telegram.bot\\18.0.0\\telegram.bot.18.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
